@@ -1,28 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header-component/>
+    <burger-factory/>
+    <carousel/>
+    <burger-story/>
+    <card-burger/>
+    <location-map/>
+    <footer-component/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from '@/components/Header/HeaderComponent';
+import BurgerFactory from "@/components/BurgerFactory/BurgerFactory";
+import Carousel from "@/components/Carousel/Carousel";
+import BurgerStory from "@/components/BurgerStory/BurgerStory";
+import CardBurger from "@/components/CardBurger/CardBurger";
+import LocationMap from "@/components/Location/LocationMap";
+import FooterComponent from "@/components/Footer/FooterComponent";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderComponent,
+    BurgerFactory,
+    Carousel,
+    BurgerStory,
+    CardBurger,
+    LocationMap,
+    FooterComponent
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

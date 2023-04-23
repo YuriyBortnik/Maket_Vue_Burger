@@ -1,0 +1,76 @@
+.factory {
+  height: 604px;
+  background: url("@/assets/background.png") no-repeat center top/cover;
+}
+.factory__content {
+  margin-top: 10px;
+  width: 53%;
+}
+.factory__content_title {
+  font: normal normal 900 84px/125px Poppins;
+  font-family: "Poppin", sans-serif;
+}
+.factory__content_text {
+  padding-top: 10px;
+  font-size: 25px;
+  line-height: 157%;
+  font: normal normal bold 24px/35px Poppins;
+  font-family: "Poppin", sans-serif;
+}
+.factory__btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #F6E224;
+  padding: 9px 33px;
+  margin: 18px 0 0 0;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  font: normal normal bold 18px/27px Poppins;
+  font-family: "Poppins", sans-serif;
+}
+.factory__btn:hover {
+  background-color: #EE9C10;
+}
+.factory__picture {
+  margin: 140px 0 0 50px;
+}
+.factory__picture_img {
+  height: 646px;
+  width: 625px;
+}
+@media screen and (max-width: 1354px) {
+  .factory .factory__picture {
+    margin: 140px 0 0 20px;
+  }
+  .factory .factory__picture__img {
+    height: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .factory .factory__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+  }
+  .factory .factory__picture {
+    display: none;
+  }
+  .factory .factory__content_title {
+    font-size: 64px;
+    line-height: 80px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .factory .factory__content_title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .factory .factory__btn {
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=BurgerFactory.css.map */

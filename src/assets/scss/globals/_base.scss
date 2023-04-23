@@ -1,0 +1,27 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+#app {
+  font-size: 20px;
+  color: #2A2A2A;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1372px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
