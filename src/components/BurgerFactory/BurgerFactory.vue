@@ -6,7 +6,7 @@
           Burger Factory
         </h1>
         <p class="factory__content_text">
-          Your dreamed burger close to your locations! OLa!
+          Your dreamed burger close to your locations!
         </p>
         <button class="factory__btn">
           Discover the ingredients
